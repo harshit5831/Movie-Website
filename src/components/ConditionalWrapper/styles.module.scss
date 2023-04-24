@@ -1,0 +1,21 @@
+.text {
+  font-size: 32px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+
+  @media screen and (max-width: 1024px) {
+    height: calc(100vh - 60px);
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 28px
+  }
+}
+
+.half_height {
+  height: 50vh;
+}
